@@ -13,7 +13,7 @@ import java.awt.image.*;
  * The class for the main window of the program. Most of the GUI components are set up here.
  *
  */
-class Paint extends JFrame implements ActionListener, ChangeListener {
+public class Paint extends JFrame implements ActionListener, ChangeListener {
 	/** Size of icons for buttons. */
 	private final int iconSize = 48;
 	/** Width of drawing region. */
